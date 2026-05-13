@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>王者荣耀攻略站 - 快速上手指南</title>
+    <style>
+        /* 简单的样式，让它看起来像个游戏网站 */
+        body { font-family: 'Microsoft YaHei', sans-serif; background: #0b0e18; color: white; margin: 0; }
+        header { background: #1a2235; padding: 20px; text-align: center; border-bottom: 2px solid #c9a063; }
+        .container { max-width: 1000px; margin: 20px auto; padding: 0 20px; }
+        .hero-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px; }
+        .card { background: #252d3f; border-radius: 8px; overflow: hidden; transition: 0.3s; border: 1px solid #3d465c; }
+        .card:hover { transform: translateY(-5px); border-color: #c9a063; }
+        .card img { width: 100%; height: 150px; object-fit: cover; background: #333; }
+        .card-content { padding: 15px; }
+        .card-content h3 { margin: 0 0 10px 0; color: #c9a063; }
+        .tag { background: #c9a063; color: black; padding: 2px 8px; border-radius: 4px; font-size: 12px; }
+        input[type="text"] { width: 100%; padding: 10px; margin-bottom: 20px; border-radius: 5px; border: none; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>王者荣耀攻略站</h1>
+    <p>助你轻松上王者</p>
+</header>
+
+<div class="container">
+    <input type="text" placeholder="搜索英雄攻略，例如：李白、后羿...">
+    
+    <div class="hero-grid">
+        <!-- 示例英雄卡片 -->
+        <div class="card">
+            <img src="https://via.placeholder.com/300x150?text=Hero+Image" alt="李白">
+            <div class="card-content">
+                <h3>李白 <span class="tag">刺客</span></h3>
+                <p>核心技巧：利用野怪刷大，二技能神速躲避控制...</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300x150?text=Hero+Image" alt="后羿">
+            <div class="card-content">
+                <h3>后羿 <span class="tag">射手</span></h3>
+                <p>核心技巧：注意走位，大招全图支援开启团战...</p>
+            </div>
+        </div>
+        <!-- 更多卡片... -->
+    </div>
+</div>
+
+</body>
+</html>
